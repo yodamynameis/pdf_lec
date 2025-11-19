@@ -1,0 +1,291 @@
+Manim Community v0.19.0
+
+[11/19/25 12:34:26] INFO     Animation 0 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             2016333726_1535642906_2231324                     
+                             57)                                               
+                    INFO     Animation 1 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_12086386                     
+                             87)                                               
+[11/19/25 12:34:27] INFO     Animation 2 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_2054881149_16195867                     
+                             31)                                               
+                    INFO     Animation 3 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_13374516                     
+                             15)                                               
+                    INFO     Animation 4 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_2632342898_24876380                     
+                             46)                                               
+[11/19/25 12:34:28] INFO     Animation 5 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_21338531                     
+                             22)                                               
+                    INFO     Animation 6 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_2856257366_24202969                     
+                             03)                                               
+                    INFO     Animation 7 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_39689617                     
+                             08)                                               
+                    INFO     Animation 8 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1764334082_22313245                     
+                             7)                                                
+                    INFO     Animation 9 : Using cached    cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_36768945                     
+                             28)                                               
+[11/19/25 12:34:29] INFO     Animation 10 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_751047842_112006729                     
+                             6)                                                
+                    INFO     Animation 11 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_91855391                     
+                             7)                                                
+                    INFO     Animation 12 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_2577703642_10449808                     
+                             56)                                               
+                    INFO     Animation 13 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_23961933                     
+                             86)                                               
+                    INFO     Animation 14 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_2334033506_39414664                     
+                             21)                                               
+                    INFO     Animation 15 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_95143468                     
+                             2)                                                
+                    INFO     Animation 16 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_31847448                     
+                             46)                                               
+[11/19/25 12:34:30] INFO     Animation 17 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_4042443541_29686878                     
+                             42)                                               
+                    INFO     Animation 18 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_24188320                     
+                             40)                                               
+                    INFO     Animation 19 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3813581625_30626492                     
+                             22)                                               
+                    INFO     Animation 20 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_32220784                     
+                             68)                                               
+[11/19/25 12:34:31] INFO     Animation 21 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_4221760105_38203360                     
+                             64)                                               
+                    INFO     Animation 22 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_69896971                     
+                             6)                                                
+                    INFO     Animation 23 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_14002018                     
+                             08)                                               
+                    INFO     Animation 24 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_4042443541_22313245                     
+                             7)                                                
+                    INFO     Animation 25 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_866129228_578296376                     
+                             )                                                 
+[11/19/25 12:34:32] INFO     Animation 26 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_19386680                     
+                             25)                                               
+                    INFO     Animation 27 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_90308660_3936998966                     
+                             )                                                 
+                    INFO     Animation 28 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1207760954_81561577                     
+                             5)                                                
+                    INFO     Animation 29 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_16375432                     
+                             70)                                               
+[11/19/25 12:34:33] INFO     Animation 30 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_225690251_425170713                     
+                             7)                                                
+                    INFO     Animation 31 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_22214370                     
+                             38)                                               
+                    INFO     Animation 32 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3357040900_24202969                     
+                             03)                                               
+[11/19/25 12:34:34] INFO     Animation 33 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_39689617                     
+                             08)                                               
+                    INFO     Animation 34 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_2177691872_22313245                     
+                             7)                                                
+                    INFO     Animation 35 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_25713884                     
+                             12)                                               
+                    INFO     Animation 36 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3171228313_29016871                     
+                             63)                                               
+[11/19/25 12:34:35] INFO     Animation 37 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_41290565                     
+                             88)                                               
+                    INFO     Animation 38 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1615845398_34990382                     
+                             20)                                               
+                    INFO     Animation 39 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_29776451                     
+                             33)                                               
+                    INFO     Animation 40 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1289800510_24202969                     
+                             03)                                               
+                    INFO     Animation 41 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_39689617                     
+                             08)                                               
+[11/19/25 12:34:36] INFO     Animation 42 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_900754880_223132457                     
+                             )                                                 
+                    INFO     Animation 43 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_39001176                     
+                             07)                                               
+[11/19/25 12:34:37] INFO     Animation 44 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_685095512_206248841                     
+                             0)                                                
+                    INFO     Animation 45 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_3201849554_39804363                     
+                             84)                                               
+[11/19/25 12:34:38] INFO     Animation 46 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1787374083_27732963                     
+                             82)                                               
+[11/19/25 12:34:39] INFO     Animation 47 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_40938921                     
+                             67)                                               
+                    INFO     Animation 48 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_2952771941_24202969                     
+                             03)                                               
+[11/19/25 12:34:40] INFO     Animation 49 : Using cached   cairo_renderer.py:89
+                             data (hash :                                      
+                             543634251_1839128356_39689617                     
+                             08)                                               
+                    INFO     Combining to Movie file.  scene_file_writer.py:739
+                    INFO                               scene_file_writer.py:886
+                             File ready at 'D:\MINOR                           
+                             1\PROJ\media\videos\auto_                         
+                             generated_manim\720p30\Au                         
+                             toGeneratedVideo.mp4'                             
+                                                                               
+                    INFO     Rendered AutoGeneratedVideo           scene.py:255
+                             Played 50 animations                              
+
+
+STDERR:
+D:\MINOR 1\PROJ\venv\Lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+
+Animation 0: Write(Text('Two-Point Form of a Line')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                           
+
+Animation 2: Create(SurroundingRectangle):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                
+
+Animation 4: Write(Text("Given two points, find the line's equation")):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                             
+
+Animation 6: FadeOut(Group):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                  
+
+Animation 8: Create(Axes of 2 submobjects):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                 
+
+Animation 10: Create(Dot), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                      
+
+Animation 12: Create(Dot), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                      
+
+Animation 14: Create(Line):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                 
+
+Animation 17: Write(Text('Slope (m) = (y2 - y1) / (x2 - x1)')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                     
+
+Animation 19: Create(Arrow), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                        
+
+Animation 21: Create(Arrow), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                        
+
+Animation 24: Write(Text('Slope (m) = (y2 - y1) / (x2 - x1)')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                     
+
+Animation 25: Create(Dot), etc.:   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                      
+
+Animation 27: Create(Dot):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                
+
+Animation 28: Create(Line):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                 
+
+Animation 30: Write(Text('Slope between (x, y) and (x1, y1) = (y - y1) / (x - x1)')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                           
+
+Animation 32: FadeOut(Group):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                   
+
+Animation 34: Write(Text('(y - y1) / (x - x1) = (y2 - y1) / (x2 - x1)')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                               
+
+Animation 36: Write(Text('y - y1 = [(y2 - y1) / (x2 - x1)] * (x - x1)')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                               
+
+Animation 38: Create(SurroundingRectangle):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                 
+
+Animation 40: FadeOut(Group):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                   
+
+Animation 42: Write(Text('Two-Point Form: y - y1 = [(y2 - y1) / (x2 - x1)] * (x - x1)')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                               
+
+Animation 44: Write(Text('Example: Points (1,1) and (2,3)')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                   
+
+Animation 46: Write(Text('Engineering applications: CAD, path planning, etc.')):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                                                                      
+
+Animation 48: FadeOut(Group):   0%|          | 0/1 [00:00<?, ?it/s]
+                                                                   

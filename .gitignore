@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+ENV/
+.env/
+.venv/
+
+# Large storage / generated output folders
+media/
+videos/
+junk/
+chroma_db/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+
+# VS Code settings
+.vscode/
+
+# Manim generated files
+*.mp4
+*.png
+*.mov
+*.json
+*.tex
+*.svg
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+Thumbs.db
+.DS_Store

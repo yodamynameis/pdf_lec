@@ -1,0 +1,49 @@
+Scene: Introduction to Conic Sections
+Narration: We're going to compare and contrast two important shapes: the circle and the ellipse. Both are part of a family of curves known as conic sections.
+Visuals: *   Text("Circle vs Ellipse")
+*   Rectangle(height=3, width=6).to_edge(DOWN)
+*   Text("Part of Conic Sections").next_to(Rectangle(), UP)
+
+Scene: Defining the Circle
+Narration: A circle is defined as the set of all points equidistant from a central point. This distance is called the radius.
+Visuals: *   Circle(radius=2)
+*   Dot(point=[0,0], color="red")
+*   Text("Center").next_to(Dot(), DOWN)
+*   Line(start=[0,0], end=[2,0])
+*   Text("Radius").next_to(Line(), DOWN)
+
+Scene: Defining the Ellipse
+Narration: An ellipse, unlike a circle, has two focal points. The sum of the distances from any point on the ellipse to these two foci is a constant.
+Visuals: *   Ellipse(width=5, height=3)
+*   Dot(point=[-2,0], color="red")
+*   Dot(point=[2,0], color="red")
+*   Text("Focus").next_to(Dot([-2,0]), DOWN)
+*   Text("Focus").next_to(Dot([2,0]), DOWN)
+*   Point(point=[0, 1.5])
+*   Line(start=[0, 1.5], end=[2,0], color="blue")
+*   Line(start=[0, 1.5], end=[-2,0], color="blue")
+*   Text("Constant sum of distances").next_to(Point([0, 1.5]), UP, buff=0.5)
+
+Scene: Equation Comparison - Circle
+Narration: The standard equation of a circle centered at the origin is x squared plus y squared equals r squared, where r is the radius. Note: Using plain Text() here as we avoid LaTeX unless strictly required, aiding code readability.
+Visuals: *   Text("Circle Equation: x^2 + y^2 = r^2").to_edge(UP)
+*   Axes()
+*   Circle(radius=2)
+
+Scene: Equation Comparison - Ellipse
+Narration: For an ellipse centered at the origin, the equation is x squared over a squared, plus y squared over b squared equals 1. 'a' and 'b' are the semi-major and semi-minor axes, respectively.
+Visuals: *   Text("Ellipse Equation: x^2/a^2 + y^2/b^2 = 1").to_edge(UP)
+*   Axes()
+*   Ellipse(width=5, height=3)
+*   Arrow(start=[0,0], end=[2.5, 0], color="green")
+*   Text("Semi-major axis (a)").next_to(Arrow(), DOWN)
+*   Arrow(start=[0,0], end=[0, 1.5], color="green")
+*   Text("Semi-minor axis (b)").next_to(Arrow(), RIGHT)
+
+Scene: Conclusion
+Narration: In summary, a circle has a single radius, while an ellipse has two axes. Understanding these fundamental differences is crucial in various engineering applications.
+Visuals: *   Text("Circle: Equal distance from center")
+*   Text("Ellipse: Constant sum of distances from two foci")
+*   Text("Key takeaway: Different definitions, different equations.")
+---
+
