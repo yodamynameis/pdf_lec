@@ -1,40 +1,49 @@
+```text
 Scene: Introduction to Combinations
 Narration: Combinations are about selecting items from a set where the order doesn't matter. We'll explore how to calculate the number of possible combinations. Remember, order is key: combinations are different from permutations where order matters!
-Visuals: *   Text("Combinations: Order Doesn't Matter")
+Visuals:
+*   Text("Combinations: Order Doesn't Matter")
 *   Rectangle(color="BLUE", fill_opacity=0.5).surround(Text("Combinations"))
 *   Text("Selecting items from a set").next_to(Rectangle, DOWN)
 *   Text("Example: Choosing 2 students from a group of 5").next_to(Text("Selecting items from a set"), DOWN)
 *   Arrow(start=Text("Combinations"), end=Text("Example: Choosing 2 students from a group of 5"))
+Transition idea: Zoom into the "Choosing 2 students" example.
 
 Scene: The Combination Formula
 Narration: The number of ways to choose 'r' items from a set of 'n' items is given by the combination formula: nCr = n! / (r! * (n-r)!). This is read as "n choose r". Note the use of factorial (!) for calculating permutations within the combination formula.
-Visuals: *   Text("Combination Formula: nCr = n! / (r! * (n-r)!)", font_size=36)
+Visuals:
+*   Text("Combination Formula: nCr = n! / (r! * (n-r)!)", font_size=36)
 *   Text("n = Total number of items").next_to(Text("Combination Formula: nCr = n! / (r! * (n-r)!)"), DOWN)
 *   Text("r = Number of items to choose").next_to(Text("n = Total number of items"), DOWN)
 *   Text("! = Factorial (e.g., 5! = 5 * 4 * 3 * 2 * 1)").next_to(Text("r = Number of items to choose"), DOWN)
 *   Rectangle(color="YELLOW", fill_opacity=0.5).surround(Text("Combination Formula: nCr = n! / (r! * (n-r)!)", font_size=36))
+Transition idea: Transition to a practical example.
 
 Scene: Example: Choosing a Team
 Narration: Let's say we have 5 students (A, B, C, D, E) and we want to choose a team of 2. Using the formula: 5C2 = 5! / (2! * 3!) = 10. So, there are 10 different teams we can form.
-Visuals: *   Text("Example: Choosing a Team of 2 from 5 Students (A, B, C, D, E)").to_edge(UP)
+Visuals:
+*   Text("Example: Choosing a Team of 2 from 5 Students (A, B, C, D, E)").to_edge(UP)
 *   Text("5C2 = 5! / (2! * 3!)").next_to(Text("Example: Choosing a Team of 2 from 5 Students (A, B, C, D, E)"), DOWN)
 *   Text("5C2 = (5 * 4 * 3 * 2 * 1) / ((2 * 1) * (3 * 2 * 1))").next_to(Text("5C2 = 5! / (2! * 3!)"), DOWN)
 *   Text("5C2 = 10").next_to(Text("5C2 = (5 * 4 * 3 * 2 * 1) / ((2 * 1) * (3 * 2 * 1))"), DOWN)
 *   Text("Possible Teams: AB, AC, AD, AE, BC, BD, BE, CD, CE, DE").next_to(Text("5C2 = 10"), DOWN)
+Transition idea: Highlight a scenario where combinations are useful.
 
 Scene: When to Use Combinations
 Narration: Combinations are useful in many real-world scenarios. This includes selecting committees, dealing cards in a game, or choosing toppings for a pizza. Anytime the order of selection doesn't change the outcome, it's a combination problem.
-Visuals: *   Text("Combinations in Real Life")
+Visuals:
+*   Text("Combinations in Real Life")
 *   Text("Selecting a committee").next_to(Text("Combinations in Real Life"), DOWN)
 *   Text("Dealing cards").next_to(Text("Selecting a committee"), DOWN)
 *   Text("Choosing pizza toppings").next_to(Text("Dealing cards"), DOWN)
 *   Rectangle(color="GREEN", fill_opacity=0.5).surround(Text("Combinations in Real Life"))
+Transition idea: End with a summary.
 
 Scene: Summary
 Narration: Remember, combinations focus on selection without regard to order. The formula nCr = n! / (r! * (n-r)!) provides the number of possible combinations. Keep practicing, and you'll master combinations in no time!
-Visuals: *   Text("Key Takeaways:")
+Visuals:
+*   Text("Key Takeaways:")
 *   Text("Combinations: Order doesn't matter").next_to(Text("Key Takeaways:"), DOWN)
 *   Text("Formula: nCr = n! / (r! * (n-r)!)").next_to(Text("Combinations: Order doesn't matter"), DOWN)
 *   Text("Practice makes perfect!").next_to(Text("Formula: nCr = n! / (r! * (n-r)!)"), DOWN)
 ```
-
