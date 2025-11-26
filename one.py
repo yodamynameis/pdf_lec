@@ -220,7 +220,7 @@ Return ONLY the Python source code for the Manim file (no explanation).
 # -----------------------
 # Gemini interaction
 # -----------------------
-def call_gemini_generate(prompt: str, model_name: str = "gemini-2.5-pro") -> str:
+def call_gemini_generate(prompt: str, model_name: str = "gemini-2.0-flash") -> str:
     model = genai.GenerativeModel(model_name)
     try:
         response = model.generate_content(prompt)
@@ -441,7 +441,7 @@ def clean_and_save_scenes(input_text: str, output_file: str = "generated_scenes.
 def run_pipeline(pdf_path: str,
                  query: str,
                  db_path: str = "./chroma_db",
-                 gemini_model: str = "gemini-2.5-pro",
+                 gemini_model: str = "gemini-2.0-flash",
                  n_retrieved: int = 3,
                  output_script_file: str = "gemini_output.txt",
                  output_manim_file: str = "auto_generated_manim.py"):
@@ -542,7 +542,7 @@ if __name__ == "__main__":
         user_query = "Explain the slope of a straight line"
 
     db_path = "./chroma_db"
-    gemini_model = "gemini-2.5-pro"
+    gemini_model = "gemini-2.0-flash"
     n_retrieved = 3
     out_script = "gemini_output.txt"
     out_manim = "auto_generated_manim.py"

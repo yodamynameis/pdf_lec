@@ -1,59 +1,83 @@
-Scene: Introduction to Conic Sections
-Narration: We're going to compare and contrast two important shapes: the circle and the ellipse. Both are part of a family of curves known as conic sections.
-Visuals:
-*   Text("Circle vs Ellipse")
-*   Rectangle(height=3, width=6).to_edge(DOWN)
-*   Text("Part of Conic Sections").next_to(Rectangle(), UP)
-Transition idea: Zoom into a visual comparison of the two shapes.
+Scene: 1
+Scene Title: The Dimension Rule
 
-Scene: Defining the Circle
-Narration: A circle is defined as the set of all points equidistant from a central point. This distance is called the radius.
-Visuals:
-*   Circle(radius=2)
-*   Dot(point=[0,0], color="red")
-*   Text("Center").next_to(Dot(), DOWN)
-*   Line(start=[0,0], end=[2,0])
-*   Text("Radius").next_to(Line(), DOWN)
-Transition idea: Focus now shifts to the ellipse.
+Narration:
+Matrix multiplication combines two matrices, but only if they are compatible. The number of columns in the first matrix must equal the number of rows in the second. The resulting matrix gets its dimensions from the outer values: the rows of the first matrix and the columns of the second.
 
-Scene: Defining the Ellipse
-Narration: An ellipse, unlike a circle, has two focal points. The sum of the distances from any point on the ellipse to these two foci is a constant.
 Visuals:
-*   Ellipse(width=5, height=3)
-*   Dot(point=[-2,0], color="red")
-*   Dot(point=[2,0], color="red")
-*   Text("Focus").next_to(Dot([-2,0]), DOWN)
-*   Text("Focus").next_to(Dot([2,0]), DOWN)
-*   Point(point=[0, 1.5])
-*   Line(start=[0, 1.5], end=[2,0], color="blue")
-*   Line(start=[0, 1.5], end=[-2,0], color="blue")
-*   Text("Constant sum of distances").next_to(Point([0, 1.5]), UP, buff=0.5)
-Transition idea: Highlight key differences in the equations.
+*   Display two `Text` objects representing matrices A and B side-by-side. For A: `Text("Matrix A")` above `Text("[[*, *], [*, *], [*, *]]")`. For B: `Text("Matrix B")` above `Text("[[*, *, *], [*, *, *]]")`.
+*   Show the dimensions below each matrix. Under A: `Text("3 rows, 2 columns")`. Under B: `Text("2 rows, 3 columns")`.
+*   Draw a glowing `Rectangle` around "2 columns" under A and "2 rows" under B to show the inner dimensions. A `Text("Match!")` object appears between them.
+*   Draw an `Arrow` from "3 rows" under A and an `Arrow` from "3 columns" under B, pointing to a new placeholder for the result matrix C, with the text `Text("Result: 3x3 matrix")` appearing.
 
-Scene: Equation Comparison - Circle
-Narration: The standard equation of a circle centered at the origin is x squared plus y squared equals r squared, where r is the radius. Note: Using plain Text() here as we avoid LaTeX unless strictly required, aiding code readability.
-Visuals:
-*   Text("Circle Equation: x^2 + y^2 = r^2").to_edge(UP)
-*   Axes()
-*   Circle(radius=2)
-Transition idea: Slide over to the ellipse equation.
+Transition idea:
+The dimension text fades out, and the matrices are replaced with numerical examples.
 
-Scene: Equation Comparison - Ellipse
-Narration: For an ellipse centered at the origin, the equation is x squared over a squared, plus y squared over b squared equals 1. 'a' and 'b' are the semi-major and semi-minor axes, respectively.
-Visuals:
-*   Text("Ellipse Equation: x^2/a^2 + y^2/b^2 = 1").to_edge(UP)
-*   Axes()
-*   Ellipse(width=5, height=3)
-*   Arrow(start=[0,0], end=[2.5, 0], color="green")
-*   Text("Semi-major axis (a)").next_to(Arrow(), DOWN)
-*   Arrow(start=[0,0], end=[0, 1.5], color="green")
-*   Text("Semi-minor axis (b)").next_to(Arrow(), RIGHT)
-Transition idea: Briefly summarize the key differences.
-
-Scene: Conclusion
-Narration: In summary, a circle has a single radius, while an ellipse has two axes. Understanding these fundamental differences is crucial in various engineering applications.
-Visuals:
-*   Text("Circle: Equal distance from center")
-*   Text("Ellipse: Constant sum of distances from two foci")
-*   Text("Key takeaway: Different definitions, different equations.")
 ---
+
+Scene: 2
+Scene Title: The Row-by-Column Operation
+
+Narration:
+The core of matrix multiplication is the row-by-column operation. To calculate a single element in the result matrix, you take one row from the first matrix and one column from the second. You then multiply their corresponding elements and sum the products.
+
+Visuals:
+*   Show Matrix A `Text("[[2, 1], [3, 4], [5, 6]]")` and Matrix B `Text("[[7, 8, 9], [10, 11, 12]]")` on screen.
+*   Draw a `Rectangle` to highlight the first row of Matrix A: `[2, 1]`.
+*   Draw a `Rectangle` to highlight the first column of Matrix B: `[7, 10]`.
+*   Draw an `Arrow` connecting the `Text("2")` from A to the `Text("7")` from B. Simultaneously, an `Arrow` connects the `Text("1")` from A to the `Text("10")` from B.
+*   The expression `Text("(2 * 7) + (1 * 10)")` appears at the bottom of the screen.
+
+Transition idea:
+The expression animates and moves towards the top-left position of the resulting matrix placeholder.
+
+---
+
+Scene: 3
+Scene Title: Calculating the First Element
+
+Narration:
+Let's see that in action. To find the element in the first row and first column of our result, we use row one from A and column one from B. The calculation gives us our first value, which we place in the top-left corner of the new matrix.
+
+Visuals:
+*   The highlighted row and column from the previous scene remain. The expression `Text("(2 * 7) + (1 * 10)")` is visible.
+*   The expression simplifies on screen: `Text("14 + 10")`, which then becomes `Text("24")`.
+*   A result matrix C appears, represented by a `Text` object with placeholders: `Text("[[?, ?, ?], [?, ?, ?], [?, ?, ?]]")`.
+*   The `Text("24")` object moves and replaces the top-left placeholder '?' in matrix C. The final C looks like `Text("[[24, ?, ?], [?, ?, ?], [?, ?, ?]]")`.
+
+Transition idea:
+The highlights on the first row of A and first column of B fade, then reappear on the first row of A and the second column of B.
+
+---
+
+Scene: 4
+Scene Title: Completing the Matrix
+
+Narration:
+This process is repeated for every position in the result matrix. To find the element for row one, column two, we use row one from A and column two from B. We continue this pattern for all row and column combinations until the result is complete.
+
+Visuals:
+*   The first row of A `[2, 1]` and second column of B `[8, 11]` are highlighted.
+*   The calculation `Text("(2*8) + (1*11) = 27")` appears and the value `27` populates the next spot in C.
+*   Quickly animate through the remaining calculations without detailed steps. The highlights move systematically across A's rows and B's columns, and the corresponding results `30`, `61`, `76`, `92`, `93`, `114`, and `135` fill in the rest of matrix C.
+*   The final, fully populated matrix C is displayed: `Text("[[24, 27, 30], [61, 76, 92], [93, 114, 135]]")`.
+
+Transition idea:
+Zoom out slightly to show the full equation "A * B = C" with all three matrices displayed.
+
+---
+
+Scene: 5
+Scene Title: Summary and Key Points
+
+Narration:
+To summarize: first, always check that the inner dimensions match. Second, remember that each element in the output is the sum of products from one row of the first matrix and one column of the second. This powerful operation is a cornerstone of engineering and computer science.
+
+Visuals:
+*   The full equation `A * B = C` is centered on screen.
+*   A bullet point appears below: `Text("- Rule 1: Columns of A must equal Rows of B")`. The inner dimensions on the original matrices (2 and 2) briefly flash.
+*   A second bullet point appears: `Text("- Rule 2: Result element is from one Row x one Column")`.
+*   The third row of A `[5, 6]` and second column of B `[8, 11]` are highlighted, and then the corresponding result `114` in matrix C is highlighted to reinforce the concept one last time.
+
+Transition idea:
+Fade to black.
