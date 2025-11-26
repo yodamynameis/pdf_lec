@@ -109,7 +109,7 @@ def auto_chunk_text(text: str) -> Tuple[List[str], int, int]:
 # Chroma storage
 # -----------------------
 def store_chunks_in_chroma(chunks: List[str], db_path: str = "./chroma_db"):
-    emb_model = SentenceTransformer("                                                                                               ")
+    emb_model = SentenceTransformer("all-MiniLM-L6-v2")
     try:
         client = chromadb.PersistentClient(path=db_path)
     except Exception as e:
